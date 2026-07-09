@@ -65,19 +65,19 @@ const CONFIG = {
   // ── 6. 마음 전하실 곳 ──
   accounts: {
     groom: [
-      { role: "신랑", name: "위대웅", bank: "국민은행", number: "86660200005265" },
-      { role: "아버지", name: "위인호", bank: "하나은행", number: "31019003992" },
-      { role: "어머니", name: "장기화", bank: "하나은행", number: "35219010697" }
+      { role: "신랑", name: "위대웅", bank: "국민은행", number: "866602 00 005265" },
+      { role: "아버지", name: "위인호", bank: "하나은행", number: "310 19 00399 2" },
+      { role: "어머니", name: "장기화", bank: "하나은행", number: "352 19 01069 7" }
     ],
     bride: [
-      { role: "신부", name: "전고운", bank: "신한은행", number: "110550722835" },
-      { role: "어머니", name: "이유진", bank: "국민은행", number: "55820201381881" }
+      { role: "신부", name: "전고운", bank: "신한은행", number: "110 550 722835" },
+      { role: "어머니", name: "이유진", bank: "국민은행", number: "558202 01 381881" }
     ]
   },
 
   // ── 링크 공유 시 나타나는 문구 ──
   meta: {
-    title: "신랑 ♥ 신부 결혼합니다",
+    title: "위대웅 ♥ 전고운 결혼합니다",
     description: "2026년 8월 22일, 소중한 분들을 초대합니다."
   }
 };
