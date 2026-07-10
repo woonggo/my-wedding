@@ -328,8 +328,11 @@
     function parentLine(father, mother, fatherDeceased, motherDeceased) {
       const fd = fatherDeceased ? ' deceased' : '';
       const md = motherDeceased ? ' deceased' : '';
-      return `<span class="${fd}">${father}</span> · <span class="${md}">${mother}</span>`;
-    }
+      const parts = [];
+      if (father) parts.push(`<span class="${fd}">${father}</span>`);
+      if (mother) parts.push(`<span class="${md}">${mother}</span>`);
+      return parts.join(' · ');
+  }
 
     const parentsHTML = `
       <div class="parent-row">
