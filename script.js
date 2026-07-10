@@ -587,6 +587,10 @@
     $('#kakaoMapBtn').href = ml.kakao || '#';
     $('#naverMapBtn').href = ml.naver || '#';
 
+    $('#locationMapImg').addEventListener('click', () => {
+      openPhotoModal(['images/location/1.jpg'], 0);
+    });
+    
     $('#copyAddressBtn').addEventListener('click', () => {
       copyToClipboard(w.address, '주소가 복사되었습니다');
     });
