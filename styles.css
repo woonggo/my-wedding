@@ -898,7 +898,7 @@ a {
 
 .story__photo-item img {
   width: 100%;
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 2 / 3;
   object-fit: cover;
   transition: transform var(--transition-slow);
 }
@@ -1341,7 +1341,7 @@ a {
   }
 
   .story__photo-item img {
-    aspect-ratio: 3 / 2;
+    aspect-ratio: 2 / 3;
   }
 
   .section__title {
