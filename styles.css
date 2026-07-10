@@ -1340,6 +1340,12 @@ a {
     gap: var(--spacing-md);
   }
 
+  .story__photo-item:only-child {
+    grid-column: 1 / -1;
+    max-width: 360px;
+    margin: 0 auto;
+  }
+
   .story__photo-item img {
     aspect-ratio: 2 / 3;
   }
